@@ -4,9 +4,9 @@ import kotlinx.coroutines.runBlocking
 
 fun main() {
     runBlocking {
-//        takeOperator()
+        takeOperator()
 //        reduceOperator()
-        flowOnOperator()
+//        flowOnOperator()
     }
 }
 

@@ -13,11 +13,11 @@ fun main() {
 }
 
 fun sendNumbers()
-        = flowOf("One", "Two", "Three")
+//        = flowOf("One", "Two", "Three")
 
 //        = listOf(1, 2, 3).asFlow()
 
-//        = flow {
-//    for (i in 1..10)
-//        emit(i)
-//}
+        = flow {
+    for (i in 1..10)
+        emit(i)
+}
